@@ -1,0 +1,54 @@
+.add-board-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 170px;
+    height: 300px;
+    width: 250px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    cursor: default;
+    
+    input{
+        height: 35px;
+        border-radius: 3px;
+        border-color: red;
+    }
+
+    input:focus{
+        border-color: unset;
+    }
+
+    .create-button{
+        border: 0;
+        color: white;
+        background-color: #0c66e4;
+        height: 30px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    
+    .create-button:disabled{
+        background-color: #a8a8a8;
+        cursor: not-allowed;
+    }
+    
+    .error-message{
+        color: red;
+    }
+    
+    .cancel-button{
+        width: 30px;
+        height: 30px;
+        left: 87%;
+        top: 5px;
+        border: none;
+    }
+    
+    .cancel-button:hover{
+        background-color: lightgrey;
+    }
+}

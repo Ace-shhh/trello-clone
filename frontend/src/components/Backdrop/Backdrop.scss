@@ -1,0 +1,14 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100000;
+    pointer-events: auto;
+    overflow-y: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}

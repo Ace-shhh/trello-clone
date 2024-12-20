@@ -1,0 +1,47 @@
+.add-column-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f2f4;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+    height: 70px;
+    width: 200px;
+    justify-content: center;
+}
+
+.add-column-container button{
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+.add-column-container input{
+    height: 30px;
+}
+
+.add-list-button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    background-color: #55a4df;
+    color: white;
+}
+
+.save-list-button{
+    background-color: #0c66e4;
+    color: white;
+    width: 80px;
+    font-size: medium;
+}
+
+.close-button{
+    width: 30px;
+}
+
+.close-button:hover{
+    background-color: lightgrey;
+}

@@ -1,0 +1,46 @@
+.add-card-container{
+    button{
+        border-radius: 7px;
+        border: 0;
+        height: 35px;
+        font-size: medium;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: lightgrey;
+    }
+
+    .new-card-form{
+        textarea{
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 5px;
+            border-radius: 7px;
+            resize: none;
+            padding: 10px;
+            outline: none;
+            border: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: large;
+        }
+
+        button{
+            border-radius: 3px;
+        }
+
+        .save-button{
+            width: 100px;
+            margin-right: 5px;
+            background-color: #0c66e4;
+        }
+        .cancel-button{
+            width: 40px;
+        }
+    }
+
+    .add-card-button{
+        background-color: transparent;
+        width: 100%;
+        text-align: left;
+    }
+}
