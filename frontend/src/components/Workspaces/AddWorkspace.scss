@@ -1,0 +1,73 @@
+$fontsize : 15px;
+.add-workspace-container{
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+    background-color: #f1f1f4;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    
+
+    input{
+        height: 50px;
+        width: 100%;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+        outline-color: #0c66e4;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: $fontsize;
+        padding: 5px;
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+    .save-button{
+        width: 100%;
+        height: 40px;
+        background-color: #0c66e4;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        font-size: $fontsize;
+    }
+
+    .save-button:hover{
+        background-color: #005ad7;;
+    }
+
+    .save-button:disabled{
+        cursor: not-allowed;
+        background-color: grey;
+        
+    }
+
+    span{
+        color: red;
+    }
+
+    .hidden{
+        visibility: hidden;
+    }
+
+    .close-button{
+        position: absolute;
+        top: 2%;
+        left: 90%;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 0;
+    }
+}
+

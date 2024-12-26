@@ -1,0 +1,109 @@
+.container{
+    margin-top: 50px;
+    background-color: #f1f1f4;
+    height: calc(100vh - 50px);
+    padding: 150px;
+    min-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button{
+        height: 50px;
+        width: 100px;
+        cursor: pointer;
+        background-color: #0f9fff;
+        color: white;
+        font-size: 15px;
+        border: 0;
+        border-radius: 5px;
+
+        &:hover{
+            background-color: #0055cc;
+        }
+    }
+
+    .main-content{
+        width: 100%;
+        display: flex;
+        margin-bottom: 40px;
+        .inputs{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+    
+            h2{
+                margin: 0;
+                padding: 0;
+            }
+    
+            label{
+                width: 400px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+    
+            input{
+                height: 40px;
+                width: 250px;
+                margin: 0;
+                border: 0;
+                border-radius: 3px;
+                border: 0.1px solid #cccc;
+                margin-bottom: 3px;
+            }
+
+            span{
+                color: #0055cc;
+                cursor: pointer;
+                &:hover{
+                    filter: brightness(0.5)
+                }
+            }
+        }
+    
+        .profile-picture{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            caret-color: transparent;
+            .picture{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                border: 2px solid black;
+                margin-bottom: 15px;
+                overflow: hidden;
+            }
+    
+            .photo-button{
+                padding: 10px;
+                border-radius: 3px;
+                background-color: rgb(102 187 106);
+                cursor: pointer;
+                
+            }
+    
+            .photo-button:hover{
+                background-color: rgba(102, 187, 106, 0.56);
+            }
+
+            span{
+                font-size: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.user-workspaces-page {
+  position: relative;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-top: 50px;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+  flex-grow: 1;
+  
+  .create{
+    color: #0c66e4;
+    cursor: pointer;
+  }
+}

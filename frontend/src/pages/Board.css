@@ -1,0 +1,25 @@
+.board-page{
+    box-sizing: border-box;
+    background-color: #2ca1ca;
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.board-info-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #125ea7;
+    box-sizing: border-box;
+    color: white;
+    font-size: x-large;
+}
+
+.columns-container{
+    display: flex;
+    padding: 20px;
+}

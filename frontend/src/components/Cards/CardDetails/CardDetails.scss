@@ -1,0 +1,54 @@
+.card-details-container{
+    color : #0d182a;
+    position: relative;
+    background-color: #f1f2f4;
+    width: 800px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .divider{
+        width: 100%;
+        display: flex;
+        .card-information{
+            flex: 3;
+        }
+    
+        .bunch-of-buttons{
+            flex: 1;
+        }
+    }
+
+
+
+    textarea{
+        &:focus{
+            outline: 3px solid #388bff;
+        }
+    }
+
+    .close-button{
+        position: absolute;
+        top: 10px;
+        left: 790px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 0;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: 20px;
+    }
+
+    button{
+        color: #0d182a;
+        background-color: #e4e6ea;
+        cursor: pointer;
+        &:hover{
+            background-color: #d0d4db;
+        }
+    }
+}
