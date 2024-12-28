@@ -100,6 +100,7 @@ const Login = () =>{
                 <button className='google-sign-in-button' onClick={handleGoogleLogin}>
                 <img src={GoogleIcon} alt='Sign in using Google'/>
                 </button>
+                <span>Test4</span>
             </form>
 
         </div>
