@@ -100,6 +100,7 @@ const Login = () =>{
                 <button className='google-sign-in-button' onClick={handleGoogleLogin}>
                 <img src={GoogleIcon} alt='Sign in using Google'/>
                 </button>
+                <span>Multiple title regex test</span>
             </form>
 
         </div>
