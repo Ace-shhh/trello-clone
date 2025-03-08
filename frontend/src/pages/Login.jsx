@@ -99,6 +99,7 @@ const Login = () =>{
                 <div className='divider'><span>or</span></div>
                 <button className='google-sign-in-button' onClick={handleGoogleLogin}>
                 <img src={GoogleIcon} alt='Sign in using Google'/>
+                <span>Webhook test</span>
                 </button>
             </form>
 
